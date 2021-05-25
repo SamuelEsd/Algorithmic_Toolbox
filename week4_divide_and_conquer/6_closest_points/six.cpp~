@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+
+using std::vector;
+using std::cin;
+using std::cout;
+
+
+struct Point {
+  Point(double x, double y) :
+    x(x),
+    y(y)
+  {} 
+
+  double distance(Point p){
+    double square_sum = pow(x-p.x,2)+pow(y-p.y,2);
+    return sqrt(square_sum);
+  }
+  
+};
+
+int main(){
+  long n;
+  cin >> n;
+
+  vector<Point>
+  
+  
+  return 0;
+}
